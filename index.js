@@ -66,7 +66,7 @@ async function run() {
                 const toy = {
                         $set: {
                                 price: updatetoy.price,
-                                quantity:updatetoy.qty,
+                                qty:updatetoy.qty,
                                 description:updatetoy.description,
                         }
                 }
